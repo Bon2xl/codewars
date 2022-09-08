@@ -3,13 +3,8 @@
 
 
 def century(year):
-  century_count = year / 100
-  remaining_months = year % 100
-
-  total = century_count 
-  if remaining_months > 0:
-    total = int(total) + 1
-
-  return total;
+    # print(1 + (year - 1) / 100)
+    print(18.04 / 100)
+    # return 1 + (year - 1) // 100
 
 print(century(1705))

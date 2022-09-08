@@ -1,11 +1,11 @@
 # How good are you really?
 #https://www.codewars.com/kata/5601409514fc93442500010b/train/python
 
-
-# check the count
-# if more people are great that your point
-# return false
-# othewise true
+# Append item to the right list
+# Check the array count
+# If more people are great than your point
+# Return false
+# Othewise true
 def better_than_average(class_points, your_points):
 	high_points = []
 	lower_points = []
